@@ -20,7 +20,7 @@ main {
 }
 
 #picture {
-    width: 30%;
+    width: 50%;
     cursor: pointer;
 }
 
@@ -34,6 +34,26 @@ main {
     .bayan:hover {
         color: #000;
     }
+}
+
+#check-mem-1:checked ~ label .open-button {
+    display: block;
+}
+
+#check-mem-2:checked ~ label .open-button {
+    display: block;
+}
+
+#check-mem-3:checked ~ label .open-button {
+    display: block;
+}
+
+#check-mem-4:checked ~ label .open-button {
+    display: block;
+}
+
+#check-mem-5:checked ~ label .open-button {
+    display: block;
 }
 
 .bayan {
@@ -96,10 +116,11 @@ main {
 }
 
 #open-button {
-    width: 1%;
+    width: 1.5%;
     display: none;
     transform: rotate(180deg);
 }
+
 
 #check-mem-1:checked ~ label {
     color: #000;
