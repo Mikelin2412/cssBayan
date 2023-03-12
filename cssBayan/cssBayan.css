@@ -1,0 +1,213 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 244, 221);
+    color: rgb(0, 153, 255);
+}
+
+label {
+    height: 3em;
+    cursor: pointer;
+    border-top: 0.1em solid gray;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    color: #000;
+}
+
+#picture {
+    width: 50%;
+    cursor: pointer;
+}
+
+@media (hover:hover) {
+    .bayan:hover #open-button {
+        display: block;
+    }
+}
+
+@media (hover:hover) {
+    .bayan:hover {
+        color: #000;
+    }
+}
+
+#check-mem-1:checked ~ label .open-button {
+    display: block;
+}
+
+#check-mem-2:checked ~ label .open-button {
+    display: block;
+}
+
+#check-mem-3:checked ~ label .open-button {
+    display: block;
+}
+
+#check-mem-4:checked ~ label .open-button {
+    display: block;
+}
+
+#check-mem-5:checked ~ label .open-button {
+    display: block;
+}
+
+.bayan {
+    width: 90%;
+}
+
+.bayan-elements * {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.check-button {
+    display: none;
+}
+
+.mem-body-1 *{
+    display: flex;
+    justify-content: center;
+    width: 0%;
+    transition: all 0.5s;
+}
+
+.mem-body-2 *{
+    display: flex;
+    justify-content: center;
+    width: 0%;
+    transition: all 0.5s;
+}
+
+.mem-body-3 *{
+    display: flex;
+    justify-content: center;
+    width: 0%;
+    transition: all 0.5s;
+}
+
+.mem-body-4 *{
+    display: flex;
+    justify-content: center;
+    width: 0%;
+    transition: all 0.5s;
+}
+
+.mem-body-5 *{
+    display: flex;
+    justify-content: center;
+    width: 0%;
+    transition: all 0.5s;
+}
+
+.checked {
+    font-size: 1.3em;
+    transition: 0.3s;
+}
+
+.checked:hover {
+    color: #000;
+}
+
+#open-button {
+    width: 1.5%;
+    display: none;
+    transform: rotate(180deg);
+}
+
+
+#check-mem-1:checked ~ label {
+    color: #000;
+}
+
+#check-mem-2:checked ~ label {
+    color: #000;
+}
+
+#check-mem-3:checked ~ label {
+    color: #000;
+}
+
+#check-mem-4:checked ~ label {
+    color: #000;
+}
+
+#check-mem-5:checked ~ label {
+    color: #000;
+}
+
+#check-mem-1:checked ~ .mem-body-1 div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (hover:hover) {
+    #check-mem-1:hover ~ .mem-body-1 div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#check-mem-2:checked ~ .mem-body-2 div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (hover:hover) {
+    #check-mem-2:hover ~ .mem-body-2 div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#check-mem-3:checked ~ .mem-body-3 div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (hover:hover) {
+    #check-mem-3:hover ~ .mem-body-3 div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#check-mem-4:checked ~ .mem-body-4 div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (hover:hover) {
+    #check-mem-4:hover ~ .mem-body-4 div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#check-mem-5:checked ~ .mem-body-5 div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (hover:hover) {
+    #check-mem-5:hover ~ .mem-body-5 div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
